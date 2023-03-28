@@ -3,10 +3,18 @@ body {
 }
 
 #Header {
-    width: 60%;
+    width: 65%;
+    height: 210px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
     font-size: 24px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+#Page_title {
+    padding: 5px;
 }
