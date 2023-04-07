@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 #Header {
@@ -12,9 +13,50 @@ body {
     font-size: 24px;
     border-style: solid;
     border-width: 5px;
-    border-color: black;
+    border-color: red;
+    color: red;
 }
 
 #Page_title {
     padding: 5px;
 }
+
+#top {
+    position: absolute;
+    background-image: url(bg1.webp);
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Nav-bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+  
