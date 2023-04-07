@@ -3,41 +3,13 @@ body {
     margin: 0;
 }
 
-#Header {
-    width: 65%;
-    height: 210px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 50px;
-    font-size: 24px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: red;
-    color: red;
-}
-
-#Page_title {
-    padding: 5px;
-}
-
-#top {
-    position: absolute;
-    background-image: url(bg1.webp);
-    height: 350px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* Nav-bar */
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: sticky;
 }
 
 li {
@@ -59,4 +31,49 @@ li a:hover {
 .active {
     background-color: #04AA6D;
 }
-  
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 10px;
+}
+
+#About, #Builder, #Prototype, #References {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* #Header {
+    width: 65%;
+    height: 210px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+#Page_title {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 96px;
+}
+
+#top {
+    background-image: url(bg1.webp);
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
