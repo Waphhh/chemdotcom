@@ -3,13 +3,19 @@ body {
     margin: 0;
 }
 
+#nav-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    position: sticky;
+    /* background-color: #333; */
 }
 
 li {
@@ -25,75 +31,49 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    color: red;
 }
 
 .active {
-    background-color: #04AA6D;
+    color: red;
 }
 
-#wrapper {
+.mini_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50% 50%;
     gap: 10px;
     padding: 5px;
-}
-
-#About, #Builder, #Prototype, #References {
+    height: 30rem;
+    border-color: black;
     border-style: solid;
     border-width: 5px;
-    border-color: black;
-    border-radius: 5px;
-    text-align: center;
 }
 
-#Header {
+.Header {
     text-align: center;
     padding: 5px;
+    height: 25rem;
     background-image: url(bg1.webp);
 }
 
+.background-tint {
+    background-color: rgba(83, 74, 215, 0.5);
+    background-blend-mode: multiply;
+}  
+
 #Welcome_title {
+    margin-top: 4rem;
     font-size: 32px;
     color: white;
 }
 
 #Page_title {
     font-size: 96px;
-    margin-top: -3%;
+    margin-top: -1%;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     color: white;
 }
 
-
-
-
-
-
-
-
-/* #Header {
-    width: 65%;
-    height: 210px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    color: white;
-}
-
-#Page_title {
-    padding: 5px;
-    font-weight: bold;
-    font-size: 96px;
-}
-
-#top {
-    background-image: url(bg1.webp);
-    height: 350px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
