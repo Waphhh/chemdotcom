@@ -41,29 +41,26 @@ li a:hover {
 .mini_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50% 50%;
+    /* grid-template-rows: 100% 100%; */
     gap: 10px;
     padding: 5px;
     height: 30rem;
-    border-color: black;
-    border-style: solid;
-    border-width: 5px;
 }
 
 .Header {
     text-align: center;
     padding: 5px;
-    height: 25rem;
-    background-image: url(bg1.webp);
+    height: 38rem;
+    background-image: 
+        linear-gradient(
+        rgba(28, 62, 197, 0.45),
+        rgba(28, 62, 197, 0.45)
+        ),
+    url(bg1.webp);
 }
 
-.background-tint {
-    background-color: rgba(83, 74, 215, 0.5);
-    background-blend-mode: multiply;
-}  
-
 #Welcome_title {
-    margin-top: 4rem;
+    margin-top: 14rem;
     font-size: 32px;
     color: white;
 }
@@ -77,3 +74,89 @@ li a:hover {
     color: white;
 }
 
+.About_wrapper {
+    background-color: rgb(20, 20, 238);
+}
+
+#About {
+    width: 50%;
+    margin: auto;
+    margin-left: 20rem;
+}
+
+#Prototype {
+    width: 50%;
+    margin: auto;
+    margin-right: 20rem;
+}
+
+.go_to_about_button {
+    align-items: center;
+    background-color: #c20a0a;
+    border: 0;
+    border-radius: 75px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 12px;
+    justify-content: center;
+    max-width: 480px;
+    min-height: 32px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-left: 0.1rem;
+}
+
+.go_to_prototype_button {
+    align-items: center;
+    background-color: #c20a0a;
+    border: 0;
+    border-radius: 75px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 12px;
+    justify-content: center;
+    max-width: 480px;
+    min-height: 32px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-left: 0.1rem;
+}
+
+#Abouimg {
+    margin: auto;
+    width: 50%;
+    margin-right: 20rem;
+}
+
+#Protoimg {
+    margin: auto;
+    width: 50%;
+    margin-left: 20rem;
+}
+
+.line_thing {
+    width: 10%;
+    background-color: red;
+    height: 0.28rem;
+    margin-left: 0.3rem;
+}
+
+.Prototype_wrapper {
+    background-color: rgb(47, 94, 186);
+}
+
+.Builder_wrapper {
+    background-color: rgb(131, 173, 220);
+}
