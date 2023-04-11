@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="bio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@750&display=swap" rel="stylesheet">
+    <title>Chemdotcom</title>
+</head>
+<body>
+    <!-- <div id="top">
+        <div class="Header">
+
+            <div id="nav-bar">
+                <ul>
+                    <li><a href="#References">References</a></li>
+                    <li><a href="#Builder">Builder</a></li>
+                    <li><a href="#Prototype">Prototype</a></li>
+                    <li><a href="/About/index.html">About</a></li>
+                    <li><a href="index.html">Back</a></li>
+                </ul>
+            </div>
+            <h1 id="Page_title">Welcome to the Biological Carbon Capture Unit</h1>
+        </div>
+    </div> -->
+
+    <div class="popup">
+        <h2>Congratulations</h2>
+        <p>Great! Now that you have your tree down, it will start to absorb carbon dioxide from the air via the process of photosynthesis.</p>
+        <p>Photosynthesis chemical formula: 6CO<sub>2</sub> (Carbon dioxide) + 6H<sub>2</sub>O (Water) + light energy (From the sun) → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> (Glucose) + 6O<sub>2</sub> (Oxygen)</p>
+        <button class="button-56" onclick="closePopUp()">Continue</button>
+    </div>
+
+    <div id="game_container">
+        <div id="game_inner">
+            <div id="sky">
+                <div id="sun">
+                    <img src="sun.png" alt="Sun image" height="100%" width="45%">
+                </div>
+                <div id="dropBoxTree" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+            <div id="ground">
+
+            </div>
+        </div>
+        <div id="items">
+            <h1>Items</h1>
+            <div id="tree">
+                <img id="treeimg" src="tree.png" alt="Tree image" height="250rem" width="250rem" draggable="true" ondragstart="drag(event)">
+            </div>
+        </div>
+    </div>
+
+    <script src="bio.js"></script>
+</body>
+</html>
