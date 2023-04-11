@@ -78,7 +78,7 @@ li a:hover {
     background-color: rgb(20, 20, 238);
 }
 
-#About {
+#About, #Builder {
     width: 50%;
     margin: auto;
     margin-left: 20rem;
