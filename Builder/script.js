@@ -97,3 +97,13 @@ function callback() {
 }
   
 resolver.resolve(options, callback);
+
+function bioredirect() {
+  var url = "https://waphhh.github.io/chemdotcom/Builder/biological.html";
+  window.location.href = url;
+}
+
+function artredirect() {
+  var url = "https://waphhh.github.io/chemdotcom/Builder/artificial.html";
+  window.location.href = url;
+}
