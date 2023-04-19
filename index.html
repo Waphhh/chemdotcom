@@ -1,69 +1,29 @@
 <!DOCTYPE html>
 <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@750&display=swap" rel="stylesheet">
-    <title>Chemdotcom</title>
 </head>
 <body>
-    <script src="script.js"></script>
+    <div class="Header">
+        <ul>
+            <li><a href="#References">References</a></li>
+            <li><a href="#Builder">Builder</a></li>
+            <li><a href="#Prototype">Prototype</a></li>
+            <li><a href="/About/index.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </div>
     
-    <div id="top">
-        <div class="Header">
-
-            <div id="nav-bar">
-                <ul>
-                    <li><a href="#References">References</a></li>
-                    <li><a href="Builder/index.html">Builder</a></li>
-                    <li><a href="#Prototype">Prototype</a></li>
-                    <li><a href="About/index.html">About</a></li>
-                    <li><a href="index.html">Home</a></li>
-                </ul>
-            </div>
-
-            <h2 id="Welcome_title">Welcome to</h2>
-            <h1 id="Page_title">Carbon Capture Units</h1>
-        </div>
+    <div class="container">
+        <h1 class="heading" data-target-resolver></h1>
     </div>
 
-    <div id="wrapper">
+    <script  src="script.js"></script>
 
-        <div class="About_wrapper mini_wrapper">
-            <div id="About">
-                <h1>About</h1>
-                <div class="line_thing"></div>
-                <p>What are the 2 types of Carbon Capture Units? The effects of Carbon Capture Units both in general and in schools</p>
-                <button type="button", class="go_to_about_button">Learn Here!</button>
-            </div>
-            <div id="Abouimg">
-                <img src="aboutimg.webp", alt="About Icon", width="100%", height="100%">
-            </div>
-        </div> 
-
-        <div class="Prototype_wrapper mini_wrapper">
-            <div id="Protoimg">
-                <img src="protoimg.webp", alt="Prototype Icon", width="100%", height="100%">
-            </div>
-            <div id="Prototype">
-                <h1>Prototype</h1>
-                <div class="line_thing"></div>
-                <p>Look and understand how we create a prototype to simulate the process of Carbon Capture Units in schools through explanation and data collection!</p>
-                <button type="button", class="go_to_prototype_button">View Here!</button>
-            </div>
-        </div>
-
-        <div class="Builder_wrapper mini_wrapper">
-            <div id="Builder">
-                <h1>Builder</h1>
-                <div class="line_thing"></div>
-                <p>Our Custom interactive builder can allow you to build and design your own Carbon Capture Unit! YES! You can build a Carbon Capture Unit virtually. Not only that, you get to learn what the components do!</p>
-                <button type="button", class="go_to_builder_button">Build Here!</button>
-            </div>
-            <div id="Abouimg">
-                <h1>About</h1>
-            </div>
-        </div>  
+    <div class="buttons">
+        <button id="biobutton" class="button-56" onclick="bioredirect()">Biological Carbon Capture Unit</button>
+        <button id="artbutton" class="button-56" onclick="artredirect()">Artificial/Geoglogical Carbon Capture Unit</button>
     </div>
 </body>
 </html>
