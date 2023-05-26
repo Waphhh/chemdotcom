@@ -604,8 +604,6 @@ p {
 	}
 	#projects .all-projects .project-info {
 		height: 100%;
-	}
-	#projects .all-projects .project-img {
-		height: 100%;
+        width: 100%;
 	}
 	/* End Project */
