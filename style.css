@@ -29,9 +29,21 @@ p {
 	letter-spacing: 0.05rem;
 }
 
+.section-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+.section-title span {
+	color: crimson;
+}
+
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -131,7 +143,6 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -181,16 +192,17 @@ p {
 	justify-content: center;
 	flex-direction: column;
 }
-#projects .project-item {
-	display: flex;
+#projects .project-item{
+	/* display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
+	flex-direction: column; */
 	width: 100%;
 	margin: 20px auto;
 	overflow: hidden;
 	border-radius: 10px;
 }
+
 #projects .project-info {
 	padding: 30px;
 	flex-basis: 50%;
@@ -213,28 +225,6 @@ p {
 }
 #projects .project-info p {
 	color: white;
-}
-#projects .project-img {
-	flex-basis: 50%;
-	height: 300px;
-	overflow: hidden;
-	position: relative;
-}
-#projects .project-img:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: 0.7;
-}
-#projects .project-img img {
-	transition: 0.3s ease transform;
-}
-#projects .project-item:hover .project-img img {
-	transform: scale(1.1);
 }
 /* End Projects section */
 
